@@ -21,6 +21,7 @@
 			WebDriver driver = new RemoteWebDriver(new URL("http://10.0.0.6:4444"), caps);
 			driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 			System.out.println(driver.getTitle());
+			System.out.println("we are checking grid & git ");
 			driver.close();
 		}
 	}
