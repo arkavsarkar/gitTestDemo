@@ -19,6 +19,7 @@ public class GoogleTest {
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("arkav Sarkar");
 		System.out.println(driver.getTitle());
+		
 		driver.close();
 	}
 }
